@@ -4,7 +4,7 @@ This is my implementation of https://github.com/stephenfewer/ReflectiveDLLInject
 
 ## this repository contains 3 .exe files:
 1. Reflective_Loader.exe - which perform the loading of our dll into the memory of another process.
-2. reflective_Dll.exe - our dll which get loaded to another process memory.
+2. reflective_Dll.dll - our dll which get loaded to another process memory.
 3. victim.exe - a process which runs endlessely, we will inject our dll into this process memory.
 
 ### RVA vs Offset
