@@ -2,7 +2,7 @@
 This is my implementation of https://github.com/stephenfewer/ReflectiveDLLInjection project. it is heavely leaned on his project but with much more order and explanation.
 **The Implementation works on both x64 & x32 bit operation systems.**
 
-## this repository contains 3 .exe files:
+## this repository contains main files:
 1. Reflective_Loader.exe - which perform the loading of our dll into the memory of another process.
 2. reflective_Dll.dll - our dll which get loaded to another process memory.
 3. victim.exe - a process which runs endlessely, we will inject our dll into this process memory.
