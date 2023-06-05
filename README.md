@@ -41,3 +41,9 @@ Because our remote thread's entry point is the location of "self-loader" functio
 6. Loading all the necessary dependencies our dll might have (parse its import table and load all the necessary functions).
 7. Perform all the relocations a regular loader will perform.
 8. Find the entry point of "MainDll" function and call it.
+
+
+## Debugging
+I used windbg to debug my project, a long part of the project accured inside another process memory thus didnt left me a choice to debug the assembly code of my project, in order to debug properly i printed the remote thread entry point and accessed this location in windbg and then started debugging.
+
+
